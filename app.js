@@ -4,7 +4,7 @@ let output = document.querySelector('.tasse'); //Selettore span con classe 'tass
 
 function calcTasse(fatturato) {
     let tasse = (fatturato / 100) * 47
-    output.innerHTML = tasse.toFixed(2);
+    output.innerHTML = tasse.toFixed(2); //lasciamo solo due valori dopo la virgola
 }
 
 input.addEventListener('keyup', function() {
