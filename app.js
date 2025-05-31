@@ -10,3 +10,4 @@ function calcTasse(fatturato) {
 input.addEventListener('keyup', function() {
     calcTasse(input.value);
 })
+

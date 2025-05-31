@@ -28,6 +28,14 @@ p {
     font-size: 1.5em;
 }
 
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
 @media(max-width: 470px) {
     h1 {
         padding-left: 10px;
