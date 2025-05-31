@@ -27,3 +27,22 @@ h1 {
 p {
     font-size: 1.5em;
 }
+
+@media(max-width: 470px) {
+    h1 {
+        padding-left: 10px;
+        text-align: center;
+        font-size: 2em;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 1.5em;
+    }
+    .fatturato {
+        margin: 1em;
+    }
+    p {
+        text-align: center;
+    }
+}
