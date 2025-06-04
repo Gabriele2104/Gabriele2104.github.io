@@ -7,7 +7,7 @@ let gest = document.querySelectorAll('.gestione');
 let rimasti = document.querySelector('.rimasti')
 
 function calcTasse(stipendio) {
-    let tasse = (stipendio / 100) * 47
+    let tasse = (stipendio / 100) * 21
     output.innerHTML = tasse.toFixed(2); //lasciamo solo due valori dopo la virgola
     rimasti.innerHTML = stipendio-tasse.toFixed(2)
     stipendio = parseFloat(stipendio)
