@@ -9,7 +9,7 @@ let rimasti = document.querySelector('.rimasti')
 function calcTasse(stipendio) {
     let tasse = (stipendio / 100) * 47
     output.innerHTML = tasse.toFixed(2); //lasciamo solo due valori dopo la virgola
-    rimasti.innerHTML = stipendio-tasse
+    rimasti.innerHTML = stipendio-tasse.toFixed(2)
     stipendio = parseFloat(stipendio)
 }
 
@@ -26,10 +26,10 @@ function gestSoldi(rimasti) {
         investimenti: 0.20 // 20%
     };
 
-    gest[0].innerHTML = `Cibo: €${(rimasti * allocazioni.cibo).toFixed(2)}`;
-    gest[1].innerHTML = `Bollette: €${(rimasti * allocazioni.bollette).toFixed(2)}`;
-    gest[2].innerHTML = `Veicolo: €${(rimasti * allocazioni.veicolo).toFixed(2)}`;
-    gest[3].innerHTML = `Affitto / Mutuo: €${(rimasti * allocazioni.affittoMutuo).toFixed(2)}`;
-    gest[4].innerHTML = `Investimenti: €${(rimasti * allocazioni.investimenti).toFixed(2)}`;
+    gestSoldi[0].innerHTML = `Cibo: €${(rimasti * allocazioni.cibo).toFixed(2)}`;
+    gestSoldi[1].innerHTML = `Bollette: €${(rimasti * allocazioni.bollette).toFixed(2)}`;
+    gestSoldi[2].innerHTML = `Veicolo: €${(rimasti * allocazioni.veicolo).toFixed(2)}`;
+    gestSoldi[3].innerHTML = `Affitto / Mutuo: €${(rimasti * allocazioni.affittoMutuo).toFixed(2)}`;
+    gestSoldi[4].innerHTML = `Investimenti: €${(rimasti * allocazioni.investimenti).toFixed(2)}`;
 }
 
