@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: Arial;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: "Arial";
+    padding: 5px;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to left, #02c39a, #74c69d);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid azure;
+    padding: 1.2em;
+    border-radius: 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 10px 0 ;
+    font-size: 1.1em;
+}
+
+#btn {
+    padding: 13px;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
