@@ -1,7 +1,5 @@
 "use strict"
 
-// La somma che viene inserita nell'input, deve essere divisa e allocata nelle voci presenti sotto
-
 const input = document.getElementById("input");
 const button = document.getElementById("btn");
 let spesa = document.getElementById("Spesa");
