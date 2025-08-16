@@ -79,6 +79,8 @@ p {
     }
     #input {
         outline: none;
+    }
+    #btn {
         color: black;
     }
 }
