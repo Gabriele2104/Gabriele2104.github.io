@@ -77,8 +77,8 @@ p {
     .allocazione {
         font-size: 0.9em;
     }
-
     #input {
         outline: none;
+        color: black;
     }
 }
