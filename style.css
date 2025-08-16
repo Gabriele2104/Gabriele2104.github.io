@@ -39,6 +39,7 @@ p {
     border: none;
     margin: 10px 0 10px 0 ;
     font-size: 1.1em;
+    outline: none;
 }
 
 #btn {
@@ -49,4 +50,19 @@ p {
     border-radius: 10px;
     font-size: 1.1em;
     margin: 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(to left, #02c39a, #74c69d);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #input {
+        outline: none;
+    }
 }

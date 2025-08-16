@@ -31,4 +31,13 @@ button.addEventListener("click", function (gestioneSoldi){
     macchina.textContent = macchina.value ;
     risparmio.textContent = risparmio.value ;
     varie.textContent = varie.value ;
+    if(input.value <= 1300){
+        alert ("Stò elaborando... ma nel mentre trovati un nuovo lavoro! :)");
+        spesa.textContent = spesa.value;
+        bollette.textContent = bollette.value ;
+        affitto.textContent = affitto.value ;
+        macchina.textContent = macchina.value ;
+        risparmio.textContent = risparmio.value ;
+        varie.textContent = varie.value ;
+    }
 })
