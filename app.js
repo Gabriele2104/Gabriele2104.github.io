@@ -33,7 +33,7 @@ button.addEventListener("click", function (gestioneSoldi){
         alert("Devi inserire una somma!");
         return;
     } else if(input.value <= 1300) {
-        alert ("Stò elaborando... ma nel mentre trovati un nuovo lavoro! :)");
+        alert ("Stò elaborando... ma nel mentre trovati un nuovo lavoro! ignorante:)");
         spesa.textContent = spesa.value;
         bollette.textContent = bollette.value ;
         affitto.textContent = affitto.value ;
