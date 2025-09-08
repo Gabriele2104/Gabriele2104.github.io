@@ -36,7 +36,7 @@ button.addEventListener("click", function (gestioneSoldi){
     desideri.textContent = desideri.value ;
     if(input.value === ""){
         alert("Devi inserire una somma!");
-        return;
+
     } else if(input.value <= 1300) {
         alert ("Stò elaborando...");
         spesa.textContent = spesa.value;
