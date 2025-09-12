@@ -6,7 +6,7 @@ let spesa = document.getElementById("Spesa");
 let bollette = document.getElementById("Bollette");
 let affitto = document.getElementById("Affitto");
 let macchina = document.getElementById("Macchina");
-let risparmio = document.getElementById("Risparmio");
+let emergenze = document.getElementById("Emergenze");
 let investimenti = document.getElementById("Investimenti");
 let desideri = document.getElementById("Desideri");
 
@@ -15,7 +15,7 @@ function gestioneSoldi(sommaSoldi){
         bollette.value = (sommaSoldi * .15).toFixed(2);
         affitto.value = (sommaSoldi * .30).toFixed(2);
         macchina.value = (sommaSoldi * .10).toFixed(2);
-        risparmio.value = (sommaSoldi * .06).toFixed(2);
+        emergenze.value = (sommaSoldi * .06).toFixed(2);
         investimenti.value = (sommaSoldi * .04).toFixed(2);
         desideri.value = (sommaSoldi * .10).toFixed(2);
 }
@@ -25,11 +25,12 @@ input.addEventListener("keyup", function (){
 })
 
 button.addEventListener("click", function (gestioneSoldi){
+    alert ("Stò elaborando...");
     spesa.textContent = spesa.value;
     bollette.textContent = bollette.value ;
     affitto.textContent = affitto.value ;
     macchina.textContent = macchina.value ;
-    risparmio.textContent = risparmio.value ;
+    emergenze.textContent = emergenze.value ;
     investimenti.textContent = investimenti.value;
     desideri.textContent = desideri.value ;
     if(input.value === ""){
@@ -41,7 +42,7 @@ button.addEventListener("click", function (gestioneSoldi){
         bollette.textContent = bollette.value ;
         affitto.textContent = affitto.value ;
         macchina.textContent = macchina.value ;
-        risparmio.textContent = risparmio.value ;
+        emergenze.textContent = emergenze.value ;
         investimenti.textContent = investimenti.value;
         desideri.textContent = desideri.value ;
     }
